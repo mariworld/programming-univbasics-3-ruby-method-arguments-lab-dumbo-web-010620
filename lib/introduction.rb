@@ -13,14 +13,14 @@ end
 #args -> TWO ARGS: name, language
 #puts ->"Hi (name), I'm learning (language)"
 def introduction_with_language(name, language)
-  puts "Hi my name is #{name} and I am learning to program in #{language}."
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
 #method -> introduction_with_language_optional
 #args -> 2 ARGS, 1 default- name, language = Ruby
 #puts ->"Hi (name), I'm learning (language)"
 def introduction_with_language_optional(name, language = "Ruby")
-  puts "Hi my name is #{name} and I am learning to program in #{language}."
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
   
 end
 
